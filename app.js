@@ -28,7 +28,7 @@ async function start_browser() {
     await page.goto("http://www.mon-ip.com/", { timeout: 0, waitUntil: 'domcontentloaded' });
     await page.goto("https://www.linkedin.com", { timeout: 0, waitUntil: 'domcontentloaded' });
     await page.goto("https://www.whatismybrowser.com/fr/detect/what-is-my-user-agent", { timeout: 0, waitUntil: 'domcontentloaded' });
-
+    console.log('ok')
 }
 
 
